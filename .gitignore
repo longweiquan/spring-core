@@ -1,0 +1,7 @@
+/target/
+
+# exclude all .resources
+.*
+
+# except 
+!.gitignore
