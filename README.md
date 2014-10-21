@@ -21,7 +21,7 @@ SLF4J also works better in OSGi.
 See examples below
 
 JCL with JUL
-```
+```Ruby
 <!-- Spring include JCL, by default, JCL use JUL -->
 <dependency>
 	<groupId>org.springframework</groupId>
@@ -31,7 +31,7 @@ JCL with JUL
 ```
 
 JCL with log4j
-```
+```Ruby
 <!-- Spring include JCL, here JCL is provaided by log4j -->
 <dependency>
 	<groupId>org.springframework</groupId>
@@ -46,7 +46,7 @@ JCL with log4j
 ```
 
 slf4j with log4j
-```
+```Ruby
 <dependency>
 	<groupId>org.springframework</groupId>
 	<artifactId>spring-context</artifactId>
